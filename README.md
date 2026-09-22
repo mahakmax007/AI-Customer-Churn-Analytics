@@ -1,143 +1,106 @@
-# AI-Powered Customer Churn Analytics
+AI-Powered Customer Churn Analytics
 
-End-to-end customer churn analytics project using python, sql, Power BI, DAX and Generative AI to uncover churn patterns, analyze customer risk and drive business insights.
+End to End Customer Churn Analytics project using Python, SQL, Power BI, DAX, and Generative-AI to identify churn patterns, analyze customer risk, and derive business insights.
 
-The project showcases how AI can assist data analysts to operationalize verified analytical results to derive business focused insights and recommendations
+Business Problem
 
-## Business Problem
+Customer churn is a critical factor that can damage revenue and customer relations. This project analyzes customer behavior to identify segments with higher observed churn rates.
 
-Customer churn can have adverse impact on revenues and relationships
+Objectives
 
-Objective of the project is to
+1. Calculate Overall Churn Rate
 
-- Calculate overall churn rate
+2. Segment Customers by Contract, Tenure, Internet Service, and Payment Method
 
-- Segment customers with maximum observed churn
+3. Derive Customer Risk Score Using Transparent Rules
 
-- Derive insights by analyzing churn trends across contract,tenure,internet service,payment method
+4. Develop an Interactive Power BI Dashboard
 
-- Develop a transparent rule based customer risk scoring
+5. Apply Generative AI to Summarize Verified Findings
 
-- Leverage Generative AI to summarize verified analytical insights
+6. Make Business Recommendations Based on Results
 
-- Develop a power BI dashboard for business consumption
+Tools & Technologies
 
-## Tools & Technologies
+Python — Pandas, NumPy, SQL, Power BI, DAX, Generative AI, Jupyter Notebook, GitHub
 
-Python : For data cleaning, transformation and analysis
+Analytical Workflow
 
-Pandas & numpy : For data manipulation
+Raw Data → Data Cleaning → Exploratory Data Analysis → SQL Analysis → Risk Scoring → Power BI Dashboard → Generative AI Insights
 
-SQL : For business analytics
+Findings Summary
 
-Power BI : Dashboard development
+The analysis revealed the following observed churn rates (among other insights):
 
-DAX : Measures and calculations
+Overall Churn Rate: 26.54%
 
-Generative AI : For insight generation and recommendation
+Month-to-Month Churn: 42.71%
 
-Github : Repository management
+0–12M Churn: 47.44%
 
-## Key Results
+Fiber Optic Churn: 41.89%
 
-Overall Customer Churn Rate is 26.54%
+Electronic-Check Churn: 45.29%
 
-Month to month customers churned at higher rate of 42.71%
+High-Risk Segment Churn: 53.95%
 
-Customers with 0-12 months of tenure had higher observed churn of 47.44%
+This analysis captures descriptive statistics and does not attempt to isolate causal relationships.
 
-Customers with Fiber Optic internet service churned at 41.89%
+Customer Risk Score
 
-Customers with Electronic check as payment method had higher observed churn of 45.29%
+A transparent rule-based customer risk scoring framework was developed using features like Contract, Tenure, Internet Service, Payment Method, Online Security, and Tech Support.
 
-High risk segment witnessed highest observed churn of 53.95%
+The risk score is a business logic framework and is not a predictive model.
 
-These results are reflective of patterns in data but no causation analysis was performed
+Power BI Dashboard
 
-## AI Powered Analysis
+Churn Dashboard
 
-The project uses Generative AI to analyze and operationalize insights derived from verified analysis
+AI Insights Dashboard
 
-The AI was provided the analytical results to understand the key patterns and relationships. The key steps were
+Generative AI
 
-- AI is provided the analytical numbers and results
+Generative AI was used as an analytical assistant to summarize the key verified findings and make business recommendations.
 
-- Identify key patterns and business opportunities
+The AI assistant was trained to focus on the following:
 
-- Separate facts from speculation
+Apply Generative AI to Analyze Business Problem
 
-- Develop business recommendations for customer retention
+Use only the verified analytical results
 
-- Document limitations of data
+Differentiate between facts and assumptions
 
-AI was used as an analytical augmentation tool and not as a replacement for the foundational data analysis
+Never make up statistics or causal relationships
 
-## Risk Scoring Framework
+Make practical business recommendations
 
-The project uses a transparent rule based risk scoring framework to prioritize analytical review
+Highlight the analytical evidentiary limitations
 
-Some of the attributes used in the framework are
+Business Recommendations
 
-Month to month
+1. Enhance Onboarding Process for First Year Customers
 
-Short term Tenure
+2. Conduct Further Analysis to Address Month-to-Month Churn
 
-Fiber Optic
+3. Leverage Upselling Opportunities for Security and Support Services
 
-Electronic check
+4. Investigate Higher Observed Churn Rate for Electronic-Check Payments
 
-Online Security
+Limitations
 
-Tech support
+1. This analysis captures associative relationships and does not isolate causal drivers.
 
-The risk framework is developed using business rules and is not a ML based prediction model
+2. The customer risk score utilizes a rule-based framework and is not a predictive model.
 
-## Power BI Dashboard
+3. More customer and business data would help contextualize these findings.
 
-The Power BI dashboard is designed to showcase
+Files
 
-- Overall Churn
+Customer_Churn_Analysis.ipynb
 
-- Churn by Internet Service
+Customer_Churn_Cleaned.csv
 
-- Churn by Contract
+Churn_Dashboard.png
 
-- Churn by Payment Method
+AI_Insights_dashboard.png
 
-- Churn by Tenure
-
-- Churn by Risk
-
-The dashboard also has slicers for easy exploration and comparison across customer segments
-
-## Business Recommendations
-
-Based on the analysis, the following business recommendations can be made
-
-- Focus on improving retention for short term customers
-
-- Explore ways to improve retention for month to month contracts
-
-- Evaluate bundling options for additional services like Online Security and Tech support
-
-- Investigate why customers with Electronic check as payment method have higher churn
-
-- Use the risk scoring framework to prioritize analytical review
-
-## Limitations and Next Steps
-
-The analysis highlights some of the opportunities but there are certain limitations
-
-- The analysis highlights association but not causation
-
-- The risk scoring framework is rule based and not ML based prediction model
-
-- Churn is impacted by multiple factors beyond the control of the company
-
-- The analysis should be complemented with customer feedback and other business data
-
-## About Author
-
-Author Name : Mahak Singh
-
-Education : B.Tech Computer Science & Engineering
